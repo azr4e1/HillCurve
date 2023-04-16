@@ -109,7 +109,7 @@ if curve == 'Hill Curve':
 beta = st.sidebar.slider(label='$\\beta$',
                          min_value=0.1,
                          max_value=100.,
-                         value=1.,)
+                         value=50.,)
 
 X_range = np.linspace(start=0, stop=100, num=1000)
 derivative_check = st.sidebar.checkbox(label='Derivative')
